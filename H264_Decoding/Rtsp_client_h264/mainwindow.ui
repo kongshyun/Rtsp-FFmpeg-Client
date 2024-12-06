@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="streamingLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>441</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 300 bold 13pt &quot;Quicksand Light&quot;;
+color:  rgb(243,115,33);
+background:rgba(243,115,33,0.2);
+border:1px solid rgb(243,115,33);</string>
+    </property>
+    <property name="text">
+     <string>Streaming Video</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>170</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color:  rgb(243,115,33);
+	background:white;
+	border:1px solid rgb(243,115,33);
+	font: 500 10pt &quot;Quicksand Medium&quot;;
+}
+
+QPushButton:hover {
+	color:  rgb(255, 255, 255);
+	background-color:rgba(243,115,33,0.3);
+	border:1px solid rgb(243,115,33);
+	font: 500 8pt &quot;Quicksand Medium&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>170</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color:  rgb(243,115,33);
+	background:white;
+	border:1px solid rgb(243,115,33);
+	font: 500 10pt &quot;Quicksand Medium&quot;;
+}
+
+QPushButton:hover {
+	color:  rgb(255, 255, 255);
+	background-color:rgba(243,115,33,0.3);
+	border:1px solid rgb(243,115,33);
+	font: 500 8pt &quot;Quicksand Medium&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="setButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>150</y>
+      <width>50</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color:  rgb(243,115,33);
+	background:rgba(243,115,33,0.2);
+	border:1px solid rgb(243,115,33);
+	font: 500 9pt &quot;Quicksand Medium&quot;;
+}
+QPushButton::hover {
+	color:  rgb(255, 255, 255);
+	background:rgb(208, 208, 208);
+	border:none;
+	font: 500 8pt &quot;Quicksand Medium&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Set</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dateTimeLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>440</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 500 12pt &quot;Quicksand Medium&quot;;
+background-color: rgba(243,115,33,0.5);
+border:1px solid rgb(243,115,33);</string>
+    </property>
+    <property name="text">
+     <string>Date - Time</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="addressInput">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>150</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	font: 10pt &quot;Sans Serif&quot;;
+	color:  rgb(243,115,33);
+	background:rgba(243,115,33,0.2);
+	border:1px solid rgb(243,115,33);
+}
+QLineEdit:focus {
+    	border:1px solid rgb(243,115,33);
+    background-color: lightyellow; /* 배경색 변경 */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
