@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 300 bold 13pt &quot;Quicksand Light&quot;;
+color:  rgb(243,115,33);
+background:white;
+border:1px solid rgb(243,115,33);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>30</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+        color:  rgb(243,115,33);
+        background:white;
+        border:1px solid rgb(243,115,33);
+        font: 500 10pt &quot;Quicksand Medium&quot;;
+}
+
+QPushButton:hover {
+        color:  rgb(255, 255, 255);
+        background-color:rgba(243,115,33,0.3);
+        border:1px solid rgb(243,115,33);
+        font: 500 8pt &quot;Quicksand Medium&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>StartButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="streamingLabel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>100</y>
+      <width>671</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 300 bold 13pt &quot;Quicksand Light&quot;;
+color:  rgb(243,115,33);
+background:rgba(243,115,33,0.2);
+border:1px solid rgb(243,115,33);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
